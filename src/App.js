@@ -25,7 +25,29 @@ class MarkdownPreviewer extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      input: `# This is H1 Text \n ## This is H2 Text  \n [This is a link to FreeCodeCamp](https://www.freecodecamp.org/) \n\n   An example of some \`inline code\` and if you want more... \n\n \`\`\`This is the lovely codeblock, which can hold even larger amounts of text\`\`\` \n\n 1. Just \n 1. Numbers \n 1. Here \n\n   >  Block Quotes may be the wave of the future \n \n ![Kitty](https://i.ibb.co/TTDt41Z/cat.png) \n\n **Bold Moves are welcome**`,
+      input: `
+# This is H1 Text
+
+## This is H2 Text
+
+[This is a link to FreeCodeCamp](https://www.freecodecamp.org/)
+
+An example of some \`inline code\` and if you want more...
+
+\`\`\`
+This is the lovely codeblock, 
+which can hold even larger amounts of text
+\`\`\` 
+
+1. Just 
+1. Numbers 
+1. Here 
+
+>  Block Quotes may be the wave of the future
+
+![Kitty](https://i.ibb.co/TTDt41Z/cat.png)
+
+**Bold Moves are welcome**`,
       
     }
 
