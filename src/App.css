@@ -1,3 +1,10 @@
+html {
+  background-color: #6A8057; 
+}
+
+.subHead {
+  margin-top: 3%;
+}
 .container-fluid {
   
   text-align: center;
@@ -33,6 +40,7 @@ blockquote {
   border-style: solid;
   text-align: left;
   overflow-y: scroll;
+  
   }
 
   #editor, #code, #preview:hover {
