@@ -4,6 +4,7 @@ html {
 
 .subHead {
   margin-top: 3%;
+  font-family: 'Covered By Your Grace', cursive;
 }
 .container-fluid {
   
@@ -48,7 +49,7 @@ blockquote {
   }
 
 .row {
-  padding-top: 5vh;
+  padding-top: 3vh;
   padding-left: 5vw;
   padding-right: 5vw;
   
@@ -75,5 +76,5 @@ blockquote {
 }
 
 .subHead {
-  font-family: 'Covered By Your Grace', cursive;
+  
 }
