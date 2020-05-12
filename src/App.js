@@ -8,7 +8,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 const sanitizeHtml = require('sanitize-html');
 marked.setOptions({
   renderer: new marked.Renderer(),
-  headerIds: false
+  headerIds: false,
+  breaks: true
 }
 )
 
