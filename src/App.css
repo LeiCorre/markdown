@@ -32,13 +32,11 @@ blockquote {
 
 #editor, #code, #preview {
   background-color: #D3FFAD;
-  border-color: hsl(92, 100%, 69%);
-  border: 3%;
+  border: 3% solid #abff61;
   border-radius: 2%;
   width: 100%;
   height: 65vh;
   padding: 2%;
-  border-style: solid;
   text-align: left;
   overflow-y: scroll;
   
